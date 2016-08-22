@@ -5,9 +5,9 @@ Usage:
 
 ```csharp
 
-public class CwwDataAccess : DapperExProvider
+public class DataAccess : DapperExProvider
 {
-    public CwwDataAccess()
+    public DataAccess()
         : base("Data Source=localhost...")
     {
     }
